@@ -1,8 +1,8 @@
-package bishe.dao;
+package Backend.dao;
 
 import java.util.List;
 
-import bishe.model.Fangchan;
+import Backend.model.Fangchan;
 
 public interface FangchanDao  {
 	

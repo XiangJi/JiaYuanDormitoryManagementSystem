@@ -5,7 +5,7 @@
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-if((bishe.model.User)session.getAttribute("user")==null){
+if((Backend.model.User)session.getAttribute("user")==null){
 	response.sendRedirect("login.jsp");
 	return;
 }
@@ -27,7 +27,7 @@ if((bishe.model.User)session.getAttribute("user")==null){
             <thead>
                 <tr>
                     <th>
-                        <div id="logo" title="用户管理后台">
+                        <div id="logo" title="User管理后台">
                         </div>
                     </th>
                     <th>
@@ -75,7 +75,7 @@ if((bishe.model.User)session.getAttribute("user")==null){
                                             </ul>
                                             <div id="left_menu_cnt1" class="left_menu_cnt">
                                                 <ul id="dleft_tab1">
-                                                    <li id="now11"><a  href="method!zhuhulist" target="content3"><span>业主信息管理</span></a></li>
+                                                    <li id="now11"><a  href="method!zhuhulist" target="content3"><span>Resident</span></a></li>
                                                    <li id="now11"><a  href="method!fangchanlist" target="content3"><span>房产信息管理</span></a></li>
                                                     <li id="now11"><a  href="method!jiaofeilist" target="content3"><span>缴费信息管理</span></a></li>
                                                     

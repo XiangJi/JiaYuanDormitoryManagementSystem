@@ -1,4 +1,4 @@
-package bishe.action;
+package Backend.action;
 
 
 import java.io.IOException;
@@ -10,19 +10,19 @@ import javax.servlet.http.HttpSession;
 
 import org.apache.struts2.ServletActionContext;
 
-import bishe.dao.FangchanDao;
-import bishe.dao.JiaofeiDao;
-import bishe.dao.TousuDao;
-import bishe.dao.UserDao;
-import bishe.dao.WeixiuDao;
-import bishe.dao.ZhuhuDao;
-import bishe.model.Fangchan;
-import bishe.model.Jiaofei;
-import bishe.model.Tousu;
-import bishe.model.User;
-import bishe.model.Weixiu;
-import bishe.model.Zhuhu;
-import bishe.util.Pager;
+import Backend.dao.FangchanDao;
+import Backend.dao.JiaofeiDao;
+import Backend.dao.TousuDao;
+import Backend.dao.UserDao;
+import Backend.dao.WeixiuDao;
+import Backend.dao.ZhuhuDao;
+import Backend.model.Fangchan;
+import Backend.model.Jiaofei;
+import Backend.model.Tousu;
+import Backend.model.User;
+import Backend.model.Weixiu;
+import Backend.model.Zhuhu;
+import Backend.util.Pager;
 
 
 import com.opensymphony.xwork2.ActionSupport;

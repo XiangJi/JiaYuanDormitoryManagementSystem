@@ -9,7 +9,7 @@
            http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
 	
 	
-	<bean id="manageAction" class="bishe.action.ManageAction" scope="prototype">
+	<bean id="manageAction" class="Backend.action.ManageAction" scope="prototype">
 
 		<property name="userDao"><ref bean="userDao" /></property>
 		<property name="zhuhuDao"><ref bean="zhuhuDao" /></property>

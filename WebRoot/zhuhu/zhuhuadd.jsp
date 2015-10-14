@@ -19,7 +19,7 @@ function checkform()
 	 
 	 if (document.getElementById('usernameid').value=="")
 	{
-		alert("业主登录账户不能为空");
+		alert("Please enter the username");
 		return false;
 	}
 	var valid=/^\w+$/;
@@ -31,13 +31,13 @@ function checkform()
 	
 	if (document.getElementById('dianhuahaomaid').value=="")
 	{
-		alert("手机(电话号码)不能为空");
+		alert("Phone number is invalid");
 		return false;
 	}
 	
 	valid=/^0?1[3,5,8][0,1,2,3,4,5,6,7,8,9]\d{8}$/;  
 	if(!valid.test(document.getElementById('dianhuahaomaid').value)){
-		alert("请输入正确的手机(电话号码)格式");
+		alert("Enter the right phone format");
 		return false;
 	}
 	
@@ -63,7 +63,7 @@ function checkform()
         border="0">
         <tr>
             <th colspan="3">
-                添加新业主</th>
+                Add new resident</th>
         </tr>
         
     </table>
@@ -74,44 +74,44 @@ function checkform()
     
     
     <tr>
-      <td>业主登录账户:</td>
+      <td>Resident account:</td>
       <td><input type="text" name="username" id="usernameid" /></td>
       
     </tr>
     
     <tr>
-      <td>业主身份证:</td>
+      <td>Resident ID</td>
       <td><input type="text" name="huzhusfz" /></td>
       
     </tr>
     <tr>
-      <td>业主姓名:</td>
+      <td>Resident name:</td>
       <td><input type="text" name="huzhuxingming" /></td>
       
     </tr>
      <tr>
-      <td>电话号码:</td>
+      <td>Phone number:</td>
       <td><input type="text" name="dianhuahaoma" id="dianhuahaomaid" /></td>
       
     </tr>
      <tr>
-      <td>住址:</td>
+      <td>Address:</td>
       <td><input type="text" name="zhuzhi" /></td>
       
     </tr>
      <tr>
-      <td>入住时间:</td>
+      <td>Move-in Date:</td>
       <td><input type="text" name="ruzhushijian" /></td>
       
     </tr>
     
      <tr>
-      <td>操作:</td>
-      <td>  <input type="submit" value="提交"/>
+      <td>Operation</td>
+      <td>  <input type="submit" value="Submit"/>
       &nbsp; &nbsp; &nbsp; &nbsp;
-      <input type="reset" value="重置"/>
+      <input type="reset" value="Reset"/>
        &nbsp; &nbsp; &nbsp; &nbsp;
-      <input  onclick="javascript:history.go(-1);"  type="button" value="返回" /></td>
+      <input  onclick="javascript:history.go(-1);"  type="button" value="Return" /></td>
       
     </tr>
     

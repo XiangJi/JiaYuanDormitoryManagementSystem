@@ -1,8 +1,8 @@
-package bishe.dao;
+package Backend.dao;
 
 import java.util.List;
 
-import bishe.model.Tousu;
+import Backend.model.Tousu;
 
 public interface TousuDao  {
 	

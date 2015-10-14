@@ -8,7 +8,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>小区物业管理系统</title>
+<title>Community Property Management System</title>
 <style type="text/css">
 <!--
 body {
@@ -25,7 +25,7 @@ body {
 <body style="background:url(images/bg-3.jpg);background-repeat:no-reapeat:background-position:0px 0px">
 <table width="1025" border="0" cellspacing="0" cellpadding="0" height="149">
   <tr>
-    <td height="147" ><font size="12" face="楷体" color="white"><strong>怡阳小区物业管理系统</strong></font><br /></td>
+    <td height="147" ><font size="6" face="Arial" color="white"><strong>Jiayuan Community Property Management System</strong></font><br /></td>
   </tr>
 </table>
 <table width="735" border="0" align="center" cellpadding="0" cellspacing="0" class="right-table03">
@@ -62,18 +62,18 @@ body {
         <td height="124"></td>
         <td><table width="320" height="90" border="0" align="right" cellpadding="0" cellspacing="0">
       <tr>
-        <td width="31%" height="35" class="login-text02" align="right"><font color="#000040"><strong>用户名称：</strong></font><br /></td>
+        <td width="31%" height="35" class="login-text02" align="right"><font color="#000040"><strong>Username:</strong></font><br /></td>
         <td width="69%"><input name="username" type="text" size="30" style="width:170px;"/></td>
       </tr>
       <tr>
-        <td height="35" class="login-text02" align="right"><strong><font color="#000040">密&nbsp;&nbsp;&nbsp;码：</font></strong><br /></td>
+        <td height="35" class="login-text02" align="right"><strong><font color="#000040">Password:</font></strong><br /></td>
         <td><input name="password" type="password" size="30" style="width:170px;"/></td>
       </tr>
       
       <tr>
         <td height="35">&nbsp;</td>
-        <td><input name="Submit2" type="submit" class="right-button01" value="确认登录"  />&nbsp;&nbsp;
-          <input name="Submit232" type="reset" class="right-button02" value="重 置" /></td>
+        <td><input name="Submit2" type="submit" class="right-button01" value="Login"  />&nbsp;&nbsp;
+          <input name="Submit232" type="reset" class="right-button02" value="Rest" /></td>
       </tr>
     </table></td>
       </tr>

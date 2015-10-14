@@ -18,7 +18,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         border="0">
         <tr>
             <th colspan="3">
-                住户信息管理</th>
+                Resident Information Management</th>
         </tr>
         
     </table>
@@ -27,25 +27,25 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div align="left">
 
 
-业主姓名：<input type="text" name="huzhuxingming" value="${huzhuxingming}">
+Resident Name: <input type="text" name="huzhuxingming" value="${huzhuxingming}">
 
-<input type="submit" value="搜索">
+<input type="submit" value="Search">
 </div>
 </form>
     
-  <a href="method!zhuhuadd"><span style="font-size: 25px;">添加新业主</span></a>  
+  <a href="method!zhuhuadd"><span style="font-size: 25px;">Add new resident</span></a>  
     <table class="table" cellspacing="1" cellpadding="2" width="100%" align="center" border="0">
   <tbody>
     
     
     <tr>
-      <td >业主身份证</td>
-      <td >业主姓名</td>
-      <td >手机号码</td>
-      <td >地址</td>
-      <td >入住时间</td>
+      <td >Resident SSN</td>
+      <td >Resident Name</td>
+      <td >Phone Number</td>
+      <td >Address</td>
+      <td >Move-in Date</td>
 
-      <td class="td_bg" >操作</td>
+      <td class="td_bg" >Operation</td>
     </tr>
     <c:forEach items="${list}" var="bean">
     <tr>
@@ -56,9 +56,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       <td >${bean.ruzhushijian }</td>
 
       <td class="td_bg" >
-      <a href="method!zhuhuupdate3?id=${bean.id }"><span style="font-size: 15px;">查看业主信息</span></a>
-      <a href="method!zhuhuupdate?id=${bean.id }"><span style="font-size: 15px;">更新业主信息</span></a>
-      <a href="method!zhuhudelete?id=${bean.id }"><span style="font-size: 15px;">删除业主信息</span></a>
+      <a href="method!zhuhuupdate3?id=${bean.id }"><span style="font-size: 15px;">View</span></a>
+      <a href="method!zhuhuupdate?id=${bean.id }"><span style="font-size: 15px;">Update</span></a>
+      <a href="method!zhuhudelete?id=${bean.id }"><span style="font-size: 15px;">Delete</span></a>
       </td>
     </tr>
     </c:forEach>

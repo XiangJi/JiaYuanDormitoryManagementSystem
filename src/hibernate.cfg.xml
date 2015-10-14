@@ -33,12 +33,12 @@
 		
 		
 
-		<mapping class="bishe.model.User"/>
-		<mapping class="bishe.model.Zhuhu"/>
-		<mapping class="bishe.model.Fangchan"/>
-		<mapping class="bishe.model.Jiaofei"/>
-		<mapping class="bishe.model.Weixiu"/>
-		<mapping class="bishe.model.Tousu"/>
+		<mapping class="Backend.model.User"/>
+		<mapping class="Backend.model.Zhuhu"/>
+		<mapping class="Backend.model.Fangchan"/>
+		<mapping class="Backend.model.Jiaofei"/>
+		<mapping class="Backend.model.Weixiu"/>
+		<mapping class="Backend.model.Tousu"/>
 	
 		
 		

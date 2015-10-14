@@ -1,8 +1,8 @@
-package bishe.dao;
+package Backend.dao;
 
 import java.util.List;
 
-import bishe.model.Jiaofei;
+import Backend.model.Jiaofei;
 
 public interface JiaofeiDao  {
 	

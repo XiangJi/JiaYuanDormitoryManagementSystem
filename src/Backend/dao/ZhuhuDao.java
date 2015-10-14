@@ -1,8 +1,8 @@
-package bishe.dao;
+package Backend.dao;
 
 import java.util.List;
 
-import bishe.model.Zhuhu;
+import Backend.model.Zhuhu;
 
 public interface ZhuhuDao  {
 	

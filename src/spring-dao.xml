@@ -9,27 +9,27 @@
            http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
 	
 	<!--           daos          -->
-	<bean id="userDao" class="bishe.dao.impl.UserDaoImpl" >
+	<bean id="userDao" class="Backend.dao.impl.UserDaoImpl" >
 		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
 	</bean>
 	
-	<bean id="zhuhuDao" class="bishe.dao.impl.ZhuhuDaoImpl" >
+	<bean id="zhuhuDao" class="Backend.dao.impl.ZhuhuDaoImpl" >
 		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
 	</bean>
 	
-	<bean id="fangchanDao" class="bishe.dao.impl.FangchanDaoImpl" >
+	<bean id="fangchanDao" class="Backend.dao.impl.FangchanDaoImpl" >
 		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
 	</bean>
 	
-	<bean id="jiaofeiDao" class="bishe.dao.impl.JiaofeiDaoImpl" >
+	<bean id="jiaofeiDao" class="Backend.dao.impl.JiaofeiDaoImpl" >
 		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
 	</bean>
 	
-	<bean id="weixiuDao" class="bishe.dao.impl.WeixiuDaoImpl" >
+	<bean id="weixiuDao" class="Backend.dao.impl.WeixiuDaoImpl" >
 		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
 	</bean>
 	
-	<bean id="tousuDao" class="bishe.dao.impl.TousuDaoImpl" >
+	<bean id="tousuDao" class="Backend.dao.impl.TousuDaoImpl" >
 		<property name="sessionFactory"><ref bean="sessionFactory" /></property>
 	</bean>
 	

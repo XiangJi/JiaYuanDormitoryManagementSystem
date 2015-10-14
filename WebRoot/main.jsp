@@ -13,7 +13,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <br/>
     <br/>
     <br/>
-    <div style="font-size: 40px;font-weight: bold;"  align="center"> 欢迎进入怡阳小区物业管理系统</div>
+    <div style="font-size: 40px; font-weight: bold;" align="center"> Welcome to Resident Portal</div>
 
 </body>
 </html>

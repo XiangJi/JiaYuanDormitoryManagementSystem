@@ -1,4 +1,4 @@
-package bishe.dao.impl;
+package Backend.dao.impl;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -8,8 +8,8 @@ import org.hibernate.Session;
 import org.springframework.orm.hibernate3.HibernateCallback;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
-import bishe.dao.TousuDao;
-import bishe.model.Tousu;
+import Backend.dao.TousuDao;
+import Backend.model.Tousu;
 
 
 
